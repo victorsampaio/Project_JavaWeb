@@ -8,12 +8,8 @@ import java.sql.SQLException;
  *
  */
 
-public class TesteInsere {
+public class ProjectJavaWebMain {
 
-			/**
-			 * @param args
-			 * @throws SQLException 
-			 */
 			public static void main(String[] args) throws SQLException {
 				
 				Connection con = null;
@@ -23,7 +19,7 @@ public class TesteInsere {
 				System.out.println("Connection: Open!");
 				System.out.println("--------------");
 				
-				String sql = "insert into contato" + " (nome,email,endereco)" + " values(?,?,?)";
+				String sql = "insert into contact" + " (name,email,address)" + " values(?,?,?)";
 				
 				PreparedStatement stmt = con.prepareStatement(sql);	
 				
@@ -38,7 +34,7 @@ public class TesteInsere {
 				System.out.println("--//--//--//--//--");
 			
 				stmt.close();
-				System.out.println("-- Gravado --");
+				System.out.println("-- Recorded --");
 														
 				} catch (Exception e){
 					System.out.println("ERROR: ");

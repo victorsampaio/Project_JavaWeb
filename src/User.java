@@ -1,17 +1,14 @@
-/**
- * 
- */
 
 /**
  * @author VictorSampaio
  *
  */
-public class Usuario {
+public class User {
 
 	int id;
-	String nome;
+	String name;
 	String login;
-	String senha;
+	String password;
 	//----Getters and Setters----\\
 	public int getId() {
 		return id;
@@ -19,11 +16,11 @@ public class Usuario {
 	public void setId(int id) {
 		this.id = id;
 	}
-	public String getNome() {
-		return nome;
+	public String getName() {
+		return name;
 	}
-	public void setNome(String nome) {
-		this.nome = nome;
+	public void setName(String name) {
+		this.name = name;
 	}
 	public String getLogin() {
 		return login;
@@ -32,10 +29,10 @@ public class Usuario {
 		this.login = login;
 	}
 	public String getSenha() {
-		return senha;
+		return password;
 	}
-	public void setSenha(String senha) {
-		this.senha = senha;
+	public void setSenha(String password) {
+		this.password = password;
 	}
 		
 }
