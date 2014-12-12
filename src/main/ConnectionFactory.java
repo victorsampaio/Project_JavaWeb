@@ -1,3 +1,4 @@
+package main;
 import java.sql.Connection;
 import java.sql.DriverManager;
 
@@ -7,7 +8,7 @@ import java.sql.DriverManager;
  */
 public class ConnectionFactory {
 	
-		public Connection getConnection() {
+	public Connection getConnection() {
 		try {
 			System.out.println("--- Try ---");
 			return DriverManager.getConnection(

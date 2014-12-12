@@ -1,3 +1,4 @@
+package main;
 
 /**
  * @author VictorSampaio
@@ -28,11 +29,10 @@ public class User {
 	public void setLogin(String login) {
 		this.login = login;
 	}
-	public String getSenha() {
+	public String getPassword() {
 		return password;
 	}
-	public void setSenha(String password) {
+	public void setPassword(String password) {
 		this.password = password;
-	}
-		
+	}		
 }
